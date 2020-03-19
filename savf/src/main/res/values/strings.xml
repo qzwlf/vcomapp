@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">VF社区</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="payType">支付方式</string>
+    <string name="payfail">交易失败，请重试！</string>
+    <string name="cashpayText">现金</string>
+    <string name="cashpayDesc">直接 简便 安全</string>
+    <string name="alipayText">支付宝</string>
+    <string name="scanText">扫一扫</string>
+    <string name="scanDesc">方便快捷</string>
+    <string name="alipayDesc">推荐使用支付宝的用户使用</string>
+    <string name="wechatpayText">微信</string>
+    <string name="wechatpayDesc">推荐使用微信的用户使</string>
+    <string name="pospayText">银行卡</string>
+    <string name="pospayDesc">安全快捷支付</string>
+    <string name="selectCash">您选择了现金支付</string>
+    <string name="fee">支付金额必须大于0</string>
+    <string name="alipay">支付宝支付</string>
+    <string name="weChatPay">微信支付</string>
+    <string name="scanPay">扫一扫</string>
+    <string name="postPay">刷卡支付</string>
+</resources>

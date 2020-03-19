@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loading"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:orientation="vertical">
+
+
+        <Spinner
+            android:id="@+id/spinnerDisp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"></Spinner>
+
+        <EditText
+            android:id="@+id/txtLoginName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:drawable/edit_text"
+            android:hint="请输入用户名"
+            android:text="18850712255"
+            android:textColor="@color/darkgrey"
+            android:textColorHint="@color/darkgrey" />
+
+        <EditText
+            android:id="@+id/txtLoginPwd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:drawable/edit_text"
+            android:hint="请输入密码"
+            android:text="123456"
+            android:inputType="textPassword"
+            android:textColor="@color/darkgrey"
+            android:textColorHint="@color/darkgrey" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_blue_selector"
+        android:text="登  录"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tvVerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:text="版本号："
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+</LinearLayout>
